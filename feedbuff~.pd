@@ -1,0 +1,7 @@
+#N canvas 887 252 450 300 12;
+#X obj 55 113 catch~ feed\$0;
+#X obj 55 90 throw~ feed\$0;
+#X obj 55 66 inlet~;
+#X obj 55 136 outlet~;
+#X connect 0 0 3 0;
+#X connect 2 0 1 0;

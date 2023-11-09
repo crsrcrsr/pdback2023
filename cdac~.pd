@@ -1,0 +1,7 @@
+#N canvas 52 52 660 300 12;
+#X obj 252 111 inlet~;
+#X obj 224 148 throw~ routedacl;
+#X obj 354 149 throw~ routedacr;
+#X obj 309 111 inlet~;
+#X connect 0 0 1 0;
+#X connect 3 0 2 0;

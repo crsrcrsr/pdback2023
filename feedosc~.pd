@@ -1,0 +1,18 @@
+#N canvas 234 234 450 535 12;
+#X obj 188 320 osc~;
+#X obj 175 409 throw~ feed\$0;
+#X obj 229 196 catch~ feed\$0;
+#X obj 164 274 +~;
+#X obj 209 237 *~;
+#X obj 112 383 outlet~;
+#X obj 147 217 inlet~;
+#X obj 334 254 inlet~;
+#X obj 327 290 *~ -1000;
+#X connect 0 0 1 0;
+#X connect 0 0 5 0;
+#X connect 2 0 4 0;
+#X connect 3 0 0 0;
+#X connect 4 0 3 1;
+#X connect 6 0 3 0;
+#X connect 7 0 8 0;
+#X connect 8 0 4 1;
